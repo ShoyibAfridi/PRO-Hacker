@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:open sans; 
+}
+
+/**background**/
+
+header{
+	background-image: url(../images/hacker.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+/**nav btn**/
+.button{
+	float: left;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+
+.button li{
+	display: inline-block;
+}
+
+.button li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px transparent;
+	border-radius: 6px; 
+	transition: 0.6s ease; 
+}
+
+.button li a:hover{
+	background-color: #292929;
+	color: #fff;
+}
+.button li.active a{
+	background-color: #292929;
+	color: #fff;
+}
+
+/**nav btn end**/
+.btn{
+	float: left;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+
+.btn li{
+	display: inline-block;
+}
+
+.btn li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px transparent; 
+	transition: 1s ease; 
+}
+
+.btn li a:hover{
+	background-color: #292929;
+	color: #fff;
+}
+.btn li.active a{
+	background-color: #292929;
+	color: #fff;
+}
+
+/**Header**/
+
+.title{
+	position: absolute;
+	top: 22%;
+	left: 30%;
+	transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+	color: #e6e6e6;
+	font-size: 44px;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	transition: 1s ease;
+}
+
+/**Header end**/
+
+/**Hacking-List-Left Side**/
+
+.list{
+	float: left;
+	list-style-type: none;
+	margin-top: 11%;
+	margin-left: -26%;
+}
+
+.list li{
+	display: #;
+}
+
+.list li a{
+	text-decoration: none;
+	font-size: 22px;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px transparent;
+	border-radius: 6px; 
+	transition: 1s ease; 
+}
+
+.list li a:hover{
+	background-color: #292929;
+	color: #fff;
+}
+
+/**Hacking-List-Right side**/
+
+.list2{
+	float: left;
+	list-style-type: none;
+	margin-top: 13%;
+	margin-left: 3%;
+}
+
+.list2 li{
+	display: #;
+}
+
+.list2 li a{
+	text-decoration: none;
+	font-size: 22px;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px transparent;
+	border-radius: 6px; 
+	transition: 1s ease; 
+}
+
+.list2 li a:hover{
+	background-color: #292929;
+	color: #fff;
+}
+
+
+
+
+
+
+

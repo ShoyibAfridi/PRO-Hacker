@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:open sans; 
+}
+
+header{
+	background-image: url(../images/hacker.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px transparent;
+	border-radius: 6px; 
+	transition: 0.6s ease; 
+}
+
+ul li a:hover{
+	background-color: #292929;
+	color: #fff;
+}
+ul li.active a{
+	background-color: #292929;
+	color: #fff;
+}
+
+.title{
+	position: absolute;
+	top: 36%;
+	left: 30%;
+	transform: translate(-40%,-40%);
+	transition: 3.5s ease;
+}
+
+.title h1{
+	color: #e6e6e6;
+	font-size: 64px;
+	font-family: 'Nosifer', cursive;
+}
+
+.title h2{
+	color: #fff;
+	margin-left: 13%;
+	font-size: 34px;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	transition: 3s ease;
+
+}
+.button{
+	position: absolute;
+	top: 60%;
+	left: 31.5%;
+	transform: translate(-40%,-40%);
+}
+.button-3{
+	position: absolute;
+	top: 67.6%;
+	left: 32.7%;
+	transform: translate(-40%,-40%);
+}
+
+
+.btn{
+	border: 1px solid #fff;
+	border-radius: 6px;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #292929;
+	color: #fff;
+}
+
+#header{
+	min-height: 100px;
+}
+#content{
+	min-height: 100px;
+}
+
+#footer{
+	min-height: 100px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
